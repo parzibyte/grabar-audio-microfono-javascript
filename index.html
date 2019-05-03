@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grabar audio del micrófono con JavaScript by parzibyte</title>
+</head>
+<!--
+    * Grabar audio obtenido del micrófono con JavaScript, seleccionando
+    * un dispositivo de grabación de una lista; usando MediaRecorder
+    * y getUserMedia
+    * 
+    * @author parzibyte
+    * @see https://parzibyte.me/blog
+-->
+
+<body>
+    <h1>Grabar audio del micrófono con JavaScript</h1>
+    <br>
+    <a href="//parzibyte.me/blog" target="_blank">By Parzibyte</a>
+    <div>
+        <select name="listaDeDispositivos" id="listaDeDispositivos"></select>
+        <br><br>
+        <p id="duracion"></p>
+        <br>
+        <button id="btnComenzarGrabacion">Comenzar</button>
+        <button id="btnDetenerGrabacion">Detener</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
